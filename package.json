@@ -1,0 +1,14 @@
+{
+  "name": "quickbill",
+  "version": "0.0.1",
+  "description": "A build tool for front end",
+  "main": "index.js",
+  "bin": {
+    "bill": "bin/bill"
+  },
+  "dependencies": {
+    "commander": "2.11.0",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.0"
+  }
+}

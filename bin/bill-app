@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+const AppCreator = require('../src/appCreator')
+console.log('123')
+var appCreator = new AppCreator()
+appCreator.create()
